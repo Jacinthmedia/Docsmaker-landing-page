@@ -1,0 +1,117 @@
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 50px;
+     background-color: #1a1a1a;
+ }
+ 
+ .card {
+     width: 350px;
+     height: 200px;
+     background: linear-gradient(145deg, #2e2e2e, #1a1a1a);
+     border-radius: 15px;
+     box-shadow: 5px 5px 15px #0e0e0e, -5px -5px 15px #2e2e2e;
+     color: white;
+     border: 1px solid;
+     border-color: white;
+     font-family: Arial, sans-serif;
+     position: relative;
+     padding: 60px;
+ }
+ 
+ .logo {
+     width: 40px;
+     height: 40px;
+     background-color: #ffcc00;
+     border-radius: 5px;
+ }
+ /* .logo {
+     width: 40px;
+     height: 40px;
+     background-color: #ffcc00;
+     border-radius: 5px;
+ } */
+ 
+ .mastercard-logo {
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     display: flex;
+     /* z-index: 5; */
+ }
+ 
+ .mastercard-logo .a {
+     background-color: #CE2D35;
+     border-radius: 50px;
+     width: 40px;
+     height: 40px;
+     /* transform: translateX(); */
+ }
+ 
+ .mastercard-logo .b {
+     background-color: #c69709d7;
+     border-radius: 50px;
+     width: 40px;
+     height: 40px;
+     transform: translateX(-20px);
+ }
+ 
+ .number {
+     margin: 20px 0;
+     font-size: 20px;
+     letter-spacing: 2px;
+ }
+ 
+ .details {
+     margin-top: 20px;
+ }
+ 
+ .label {
+     margin-bottom: 10px;
+ }
+ 
+ .details .label {
+     font-size: 14px;
+     color: #ffffff6e;
+ }
+ 
+ .details .value {
+     font-size: 16px;
+     margin-bottom: 10px;
+ }
+ 
+ .tech {
+     color: #DFD190;
+ }
+ 
+ .date {
+     position: absolute;
+     font-size: 15px;
+     right: 20px;
+     bottom: -10px;
+     padding-bottom: 50px;
+     padding-left: 320px;
+ }
+ 
+ .exp {
+     color: #566270;
+     font-size: 14px;
+ }
+ /*  
+  .expiry {
+     position: absolute;
+     right: 20px;
+     bottom: -10px;
+     font-size: 15px;
+     padding-bottom: 50px;
+     padding-left: 320px;
+ }  */
+ /* .exp {
+     position: absolute;
+     right: 20px;
+     bottom: -10px;
+     font-size: 15px;
+     padding-bottom: 50px;
+     padding-left: 320px;
+ }  */
